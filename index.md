@@ -36,11 +36,10 @@ for more details.
 
 There are three versions
 
-- **Version 3** ([branch:
-  master](http://github.com/beancount/beancount/tree/master)): The
-  in-development next version of Beancount since June 2020. This is unstable and
-  you want to use version 2 below. The scope of changes is described in [this
-  document](https://docs.google.com/document/d/1qPdNXaz5zuDQ8M9uoZFyyFis7hA0G55BEfhWhrVBsfc/).
+- **Version 3** ([branch v3](http://github.com/beancount/beancount/tree/v3)):
+  The current stable version of Beancount since June 2024. Use this. Note that
+  this version is trimmed down from v2 and most of the tools the v2 branch
+  included have been moved to their own independent projects on Github.
 
 - **Version 2** ([branch v2](http://github.com/beancount/beancount/tree/v2)):
   The current stable version of Beancount, in maintenance mode as of July 2020.
@@ -61,7 +60,7 @@ Tickets can be filed at on the Github project page:
 
 ## Copyright and License
 
-Copyright (C) 2007-2020  Martin Blais.  All Rights Reserved.
+Copyright (C) 2007-2024  Martin Blais.  All Rights Reserved.
 
 This code is distributed under the terms of the "GNU GPLv2 only".
 See COPYING file for details.
