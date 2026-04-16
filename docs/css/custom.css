@@ -5,35 +5,35 @@
 }
 
 /*
-   Force theme colors (#0065a3 and #a6c4da)
+   Force theme colors (#00507f and #7fa9c5)
    Targeting Material's specific color scheme attributes to prevent overrides
 */
 
 :root, [data-md-color-scheme="default"], [data-md-color-scheme="slate"] {
-  --md-primary-fg-color:        #0065a3;
-  --md-primary-fg-color--light: #a6c4da;
-  --md-primary-fg-color--dark:  #004b7a;
+  --md-primary-fg-color:        #00507f;
+  --md-primary-fg-color--light: #7fa9c5;
+  --md-primary-fg-color--dark:  #003a5c;
 
-  --md-accent-fg-color:         #a6c4da;
-  --md-accent-fg-color--transparent: rgba(166, 196, 218, 0.1);
+  --md-accent-fg-color:         #7fa9c5;
+  --md-accent-fg-color--transparent: rgba(127, 169, 197, 0.1);
 }
 
 /* Header and tabs specific overrides */
 .md-header {
-  background-color: #0065a3 !important;
+  background-color: #00507f !important;
 }
 
 .md-tabs {
-  background-color: #0065a3 !important;
+  background-color: #00507f !important;
 }
 
 /* Link and active element colors */
 .md-typeset a {
-  color: #0065a3;
+  color: #00507f;
 }
 
 .md-nav__link--active {
-  color: #0065a3 !important;
+  color: #00507f !important;
 }
 
 /* Search bar focus */
