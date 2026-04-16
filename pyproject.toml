@@ -1,0 +1,11 @@
+[project]
+name = "beancount-github-io"
+version = "0.1.0"
+description = "Beancount project website"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mike>=2.1.4",
+    "mkdocs-glightbox>=0.5.2",
+    "zensical>=0.0.31",
+]
